@@ -37,6 +37,8 @@ def main():
     alice_avg = calculate_average(student_grades, 'Alice')
     bob_avg = calculate_average(student_grades, 'Bob')
     
+    print(student_grades)
+    
     print(f"Alice's average grade: {alice_avg}")
     print(f"Bob's average grade: {bob_avg}")
 
